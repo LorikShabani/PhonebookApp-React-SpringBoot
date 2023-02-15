@@ -1,0 +1,42 @@
+.formContainer {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+  
+  .formContainer h2 {
+    font-size: 36px;
+  }
+  
+  .formContainer label {
+    display: block;
+    font-weight: 600;
+    font-size: larger;
+  }
+  
+  .formContainer input {
+    width: 100%;
+    height: 2rem;
+    margin-top: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .formContainer button {
+    display: block;
+    margin-top: 10px;
+    width: 4rem;
+    height: 2.5rem;
+    background-color: rgb(26, 215, 23);
+    background-color: rgb(26, 215, 23);
+    color: white;
+    font-size: larger;
+    border-radius: 5px;
+    font-weight: bold;
+    align-items: flex-start;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  

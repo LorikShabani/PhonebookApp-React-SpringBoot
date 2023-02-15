@@ -1,0 +1,37 @@
+.tableContainer td {
+  background-color: #d1d0d0;
+  border: 2px solid #070707;
+  text-align: center;
+  padding: 4px;
+  font-size: 34px;
+}
+
+td {
+  background-color: #d1d0d0;
+}
+
+button {
+  width: 110px;
+  height: 40px;
+  align-items: center;
+  background-color: rgb(26, 215, 23);
+  border: 1px solid rgb(26, 215, 23);
+  color: white;
+  font-size: 30px;
+  border-radius: 5px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.delete button {
+  width: 110px;
+  height: 40px;
+  align-items: center;
+  background-color: rgb(215, 23, 23);
+  border: 1px solid rgb(215, 23, 23);
+  color: white;
+  font-size: 30px;
+  border-radius: 5px;
+  font-weight: 400;
+  cursor: pointer;
+}

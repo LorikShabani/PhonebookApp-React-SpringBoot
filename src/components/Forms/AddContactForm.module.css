@@ -1,0 +1,73 @@
+.formContainer {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.formContainer h2 {
+  font-size: 36px;
+}
+
+.formContainer label {
+  display: block;
+  font-weight: 600;
+  font-size: larger;
+}
+
+.formContainer input {
+  display: inline-block;
+  position: relative;
+  margin-top: 10px;
+  width: 100%;
+  height: 2rem;
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+
+.formContainer button {
+  display: block;
+  margin-top: 10px;
+  width: 4rem;
+  height: 2.5rem;
+  background-color: rgb(59, 154, 238);
+  border: 1px solid rgb(59, 154, 238);
+  color: white;
+  font-size: larger;
+  border-radius: 5px;
+  font-weight: bold;
+  align-items: flex-start;
+  cursor: pointer;
+}
+
+
+  
+  .input-container input {
+  width: 90%;
+  margin-right: 14px;
+  }
+  
+  .input-container button {
+  display: inline-block;
+  font-size: medium;
+  width: 3.5rem;
+  height: 1.9rem;
+  border-radius: 1px;
+  }
+
+  .extraInputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 90%;
+    margin-left: 2.7%;
+    }
+    
+    .extraInputs input {
+    width: 100%;
+    margin-bottom: 10px;
+    }
+    
+    .extraInputs button {
+    margin-top: 10px;
+    align-self: flex-end;
+    }
