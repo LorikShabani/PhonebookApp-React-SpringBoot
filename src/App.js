@@ -17,7 +17,7 @@ const App = () => {
       .then((response) => response.json())
       .then((result) => setContacts(result))
       .catch((error) => console.log("error", error));
-  });
+  }, []);
 
   const addContactHandler = (contact) => {
     setContacts([...contacts, contact]);
